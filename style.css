@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lumanosimo&family=Open+Sans:wght@500&family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+body{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   min-height: 90vh;
+
+} 
+body.bc{
+    background: url('image/backim');
+    background-size: cover;
+} 
+.container{
+   
+ 
+
+     width: 690px;
+     background: white;
+     border-radius: 10px;
+     padding: 30px;
+}
+.write{
+    border: 1px solid rgb(13, 1, 1);
+    border-radius: 5px;
+}
+.write .text-input{
+    display: flex;
+
+    border-bottom: 1px solid black;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+    background: none;
+    border-radius: 5px;
+    padding: 10px 15px ;
+
+}
+.text-input .to-text{
+ border-radius: 0px;
+ border-left: 1px solid black;
+   
+}
+.controls, li .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls{
+    list-style: none;
+    padding: 15px 10px;
+
+}
+
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
+
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid black;
+}
+
+.controls .icons{
+    width: 88%;
+}
+
+.controls .icons i{
+  width: 50px;
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+
+}
+.controls .exchange{
+color: rgb(135, 127, 127);
+font-size: 20px;
+cursor: pointer;
+}
+.container button {
+   width: 100%; 
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: gray;
+    border-radius: 4px;
+    color: white;
+    font-size: 17px;
+
+}
+
+
